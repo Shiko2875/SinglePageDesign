@@ -1,0 +1,42 @@
+.container {
+    width: 1110px;
+    height: 445px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    width: 540px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 228px;
+    height: 56px;
+    background-color: #EB7565;
+    color: #FFF7F0;
+    border-radius: 28px;
+    font-size: 16px;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 70px;
+}
+
+button:hover {
+    background-color: #F6A560;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 70px;
+    margin-bottom: 34px;
+    line-height: 50px;
+}
+
+p {
+    margin: 0px;
+    line-height: 28px;
+    color: #7A746E;
+}

@@ -3,10 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FooterHeaderComponent } from './footer-header/footer-header.component';
+import { WrapperComponent } from './wrapper/wrapper.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { TitleElementComponent } from './title-element/title-element.component';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { BiographyComponent } from './biography/biography.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterHeaderComponent,
+    WrapperComponent,
+    CarouselComponent,
+    TitleElementComponent,
+    NavigationBarComponent,
+    BiographyComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
