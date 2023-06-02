@@ -1,0 +1,13 @@
+.carousel {
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 540px;
+    height: 350px;
+    border-radius: 10px;
+}
