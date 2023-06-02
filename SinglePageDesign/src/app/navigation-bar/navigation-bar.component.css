@@ -1,4 +1,83 @@
 .container {
+    margin-top: 80px;
     width: 1110px;
     height: 364px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.graphic-design {
+    position: relative;
+    width: 354px;
+    height: 364px;
+    background-color: #755cde;
+    border-radius: 8px;
+}
+
+.right {
+    width: 731.91px;
+    height: 364px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ui-ux {
+    position: relative;
+    width: 164px;
+    height: 182px;
+    background-color: #f6a560;
+    border-radius: 8px;
+}
+
+.apps {
+    position: relative;
+    width: 164px;
+    height: 182px;
+    background-color: #F39e9e;
+    border-radius: 8px;
+}
+
+.photography {
+    position: relative;
+    width: 354px;
+    height: 182px;
+    background-color: #61c4b7;
+    border-radius: 8px;
+}
+
+.illustrations {
+    position: relative;
+    margin-top: 24px;
+    width: 354px;
+    height: 158px;
+    background-color: #eb7565;
+    border-radius: 8px;
+}
+
+.motion-graphics {
+    position: relative;
+    margin-top: 24px;
+    width: 354px;
+    height: 158px;
+    background-color: #552049;
+    border-radius: 8px;
+}
+
+#img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+#text {
+    color: #FFFFFF;
+    font-size: 24px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 24px;
+    margin-left: 24px;
 }
