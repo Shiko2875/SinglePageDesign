@@ -2,13 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
-.carousel {
-    width: 2880px;
+.carousel-frame {
+    width: 540px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.carousel{
     display: flex;
-    justify-content: space-evenly;
-    
+}
+
+.slide {
+    width: 540px;
+    height: 350px;
 }
 
 .buttons {

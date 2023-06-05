@@ -10,6 +10,8 @@ import { TitleElementComponent } from './title-element/title-element.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { BiographyComponent } from './biography/biography.component';
 import { ContactComponent } from './contact/contact.component';
+import { PrevDirective } from './prev.directive';
+import { NextDirective } from './next.directive';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ContactComponent } from './contact/contact.component';
     TitleElementComponent,
     NavigationBarComponent,
     BiographyComponent,
-    ContactComponent
+    ContactComponent,
+    PrevDirective,
+    NextDirective
   ],
   imports: [
     BrowserModule,
